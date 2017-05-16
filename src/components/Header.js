@@ -12,8 +12,10 @@ class Header extends Component {
             <li><Link to='/contacts'>Contacts</Link></li>
             <li><Link to='/exception'>Exception</Link></li>
           </ul>
-          <div className='navbar-header'>
-            <h3 className='text-muted'>CommonJS-Basic</h3>
+          <div className="navbar-header">
+            <a href="#" className="navbar-brand">
+              CommonJS-Basic
+            </a>
           </div>
         </div>
       </div>
