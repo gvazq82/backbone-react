@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 
+const styles = {marginTop: '75px'};
+
 class Main extends Component {
   render() {
     return (
-      <div className="container">
-        <div id="main" className="row main"></div>
+      <div className="container" style={styles}>
+        <div id="main" className="row main">
+        </div>
       </div>
     );
   }
