@@ -13,10 +13,10 @@ class Main extends Component {
     return (
       <div className="container" style={styles}>
         <div id="main" className="row main">
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/" component={Home} />
           <Route path="/about" component={About}/>
           <Route path="/exception" component={Error}/>
-          <Route path="/contacts" component={Contacts}/>
+          <Route path="/contacts" component={() => (<Contacts {...this.props} />)}/>
         </div>
       </div>
     );
